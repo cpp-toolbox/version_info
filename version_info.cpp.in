@@ -1,0 +1,4 @@
+#include "version_info.hpp"
+
+// This variables value gets dynamically set by cmake
+const std::string COMMIT_HASH = "@COMMIT_HASH@";
